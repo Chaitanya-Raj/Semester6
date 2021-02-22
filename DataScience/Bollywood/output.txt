@@ -1,0 +1,226 @@
+R version 4.0.3 (2020-10-10) -- "Bunny-Wunnies Freak Out"
+Platform: x86_64-w64-mingw32 (64-bit)
+
+r$> source("d:\\Semester6\\DataScience\\Bollywood\\bollywood.R", en 
+    coding = "UTF-8")
+[1] "C:/Users/Chaitanya Raj"
+[1] "DATASET"
+                            Movie         Lead     Rdate Ocollection
+1                          Dangal        Aamir 23-Dec-16       29.78
+2                    Wajah Tum Ho      Sharman 16-Dec-16        2.86
+3                         Befikre      Ranveer 09-Dec-16       10.36
+4                       Kahaani 2        Vidya 02-Dec-16        4.25
+5                    Dear Zindagi     Shahrukh 25-Nov-16        8.75
+6                         Force 2         John 18-Nov-16        6.05
+7                       Rock On 2       Farhan 11-Nov-16        2.02
+8              Ae Dil Hai Mushkil      Ranbeer 28-Oct-16       13.30
+9                         Shivaay         Ajay 28-Oct-16       10.24
+10                         Mirzya Harshvardhan 07-Oct-16        2.20
+11 M. S. Dhoni - The Untold Story      Sushant 30-Sep-16       21.30
+12                        Parched   Tannishtha 23-Sep-16        0.12
+13                          Banjo      Riteish 23-Sep-16        1.72
+14                    Raaz Reboot       Emraan 16-Sep-16        6.30
+15                           Pink      Amitabh 16-Sep-16        4.32
+16                Baar Baar Dekho      Katrina 09-Sep-16        6.81
+17                     Freaky Ali   Nawazuddin 09-Sep-16        2.55
+18                          Akira     Sonakshi 02-Sep-16        5.15
+19                  A Flying Jatt        Tiger 25-Aug-16        7.10
+20              Happy Bhag Jayegi        Abhay 19-Aug-16        2.32
+21                         Rustom       Akshay 12-Aug-16       14.11
+22                   Mohenjo Daro      Hrithik 12-Aug-16        8.87
+23                        Dishoom         John 29-Jul-16       11.05
+24                        Madaari       Irrfan 22-Jul-16        2.25
+25              Great Grand Masti      Riteish 15-Jul-16        2.50
+26                         Sultan       Salman 06-Jul-16       36.54   
+27               Raman Raghav 2.0   Nawazuddin 24-Jun-16        1.10   
+28                    Udta Punjab       Shahid 17-Jun-16       10.05   
+29                         Dhanak        Hetal 17-Jun-16        0.29
+30            Do Lafzon Ki Kahani      Randeep 10-Jun-16        1.03
+31                           TE3N      Amitabh 10-Jun-16        2.61
+32                    Housefull 3       Akshay 03-Jun-16       15.21
+33                      Veerappan      Sandeep 27-May-16        1.79   
+34                         Phobia      Radhika 27-May-16        0.25
+35                        Waiting  Naseeruddin 27-May-16        0.27
+36                        Sarbjit    Aishwarya 20-May-16        3.69   
+37                          Azhar       Emraan 13-May-16        6.30   
+38                One Night Stand        Sunny 06-May-16        0.60   
+39                    1920 London      Sharman 06-May-16        2.50   
+40                        Traffic        Manoj 06-May-16        0.40   
+41                         Baaghi        Tiger 29-Apr-16       11.94   
+42                            Fan     Shahrukh 15-Apr-16       19.20   
+43                     Love Games   Patralekha 08-Apr-16        1.03
+44                        Ki & Ka        Arjun 01-Apr-16        7.30   
+45                 Rocky Handsome         John 25-Mar-16        5.39   
+46                  Kapoor & Sons     Siddarth 18-Mar-16        6.85   
+47                  Teraa Surroor       Himesh 11-Mar-16        1.79   
+48                  Jai Gangaajal     Priyanka 04-Mar-16        5.50   
+49                        Aligarh        Manoj 26-Feb-16        0.31   
+50   Tere Bin Laden Dead Or Alive       Manish 26-Feb-16        0.54
+51                     LoveShhuda       Girish 19-Feb-16        0.64
+52                         Neerja        Sonam 19-Feb-16        4.70
+53                         Fitoor      Katrina 12-Feb-16        3.61   
+54                       Sanam Re       Pulkit 12-Feb-16        5.04   
+55               Sanam Teri Kasam        Mawra 05-Feb-16        1.25   
+56              Ghayal Once Again    SunnyDeol 05-Feb-16        7.20   
+57                  Saala Khadoos     Madhavan 29-Jan-16        2.19   
+58                     Mastizaade        Sunny 29-Jan-16        5.59   
+59                        Airlift       Akshay 22-Jan-16       12.35   
+60           Kyaa Kool Hain Hum 3      Tusshar 22-Jan-16        8.15
+61                          Wazir      Amitabh 08-Jan-16        5.61   
+   Wcollection Fwcollection Tcollection   Verdict
+1       106.95       197.53      386.68 Super Hit
+2         7.79        10.29       10.29      Flop
+3        34.36        48.75       59.30   Average
+4        16.97        24.26       30.56   Average
+5        32.50        47.00       64.44       Hit
+6        20.05        30.15       30.15   Average
+7         7.01        10.01       10.01      Flop
+8        35.60        80.19      112.14       Hit
+9        28.56        70.41      100.05       Hit
+10        6.50           NA        6.50      Flop
+11       66.00        94.13      132.85 Super Hit
+12        0.62           NA        0.62      Flop
+13        5.92         8.67        8.67      Flop
+14       18.09        26.73       26.73      Flop
+15       21.51        35.91       61.83 Super Hit
+16       21.16        29.40       29.40      Flop
+17        8.50        13.50       13.50      Flop
+18       16.65        26.39       26.39      Flop
+19       29.45        36.85       36.85      Flop
+20       10.71        17.65       28.02   Average
+21       50.42        90.90      127.13 Super Hit
+22       30.54        51.18       57.42      Flop
+23       37.32        53.34       67.97   Average
+24        9.75        14.00       16.80      Flop
+25        8.20        13.14       13.14      Flop
+26      180.36       229.16      300.45 Super Hit
+27        3.98         6.01        6.95      Flop
+28       33.80        48.50       60.27       Hit
+29        1.89           NA        1.89      Flop
+30        3.74         5.54        5.54      Flop
+31       11.13        16.34       19.06      Flop
+32       53.31        80.10      109.04       Hit
+33        5.95         7.45        7.50      Flop
+34        1.24         2.34        2.52   Average
+35        1.30         2.05        2.85      Flop
+36       13.96        22.09       27.38   Average
+37       20.80        29.70       33.03   Average
+38        1.96         2.96        3.05      Flop
+39        7.73        12.45       15.45      Flop
+40        1.98         3.15        3.75      Flop
+41       38.58        59.72       76.34       Hit
+42       52.35        71.50       84.10   Average
+43        3.06         3.94        4.04      Flop
+44       25.23        37.57       52.31   Average
+45       16.12        22.85       25.15      Flop
+46       26.35        46.93       73.29       Hit
+47        6.46        11.38       14.15   Average
+48       17.70        25.20       32.63   Average
+49        1.29         2.09        2.50      Flop
+50        1.76         2.86        2.93      Flop
+51        2.17         2.98        3.07      Flop
+52       22.01        35.32       75.61 Super Hit
+53       14.11        18.61       19.28      Flop
+54       17.05        25.82       27.74   Average
+55        4.66         8.66        9.11      Flop
+56       23.25        33.25       35.70   Average
+57        9.93        12.63       14.79      Flop
+58       18.45        28.74       36.44   Average
+59       44.30        83.50      128.10 Super Hit
+60       20.15        29.65       30.25   Average
+61       21.01        30.05       41.02   Average
+[1] "Type of dataset"
+[1] "data.frame"
+[1] "list"
+[1] "list"
+[1] "Internal Data Structure Of Dataset(str)"
+'data.frame':   61 obs. of  8 variables:
+ $ Movie       : chr  "Dangal" "Wajah Tum Ho" "Befikre" "Kahaani 2" ... $ Lead        : chr  "Aamir" "Sharman" "Ranveer" "Vidya" ...
+ $ Rdate       : chr  "23-Dec-16" "16-Dec-16" "09-Dec-16" "02-Dec-16" ...
+ $ Ocollection : num  29.78 2.86 10.36 4.25 8.75 ...
+ $ Wcollection : num  106.95 7.79 34.36 16.97 32.5 ...
+ $ Fwcollection: num  197.5 10.3 48.8 24.3 47 ...
+ $ Tcollection : num  386.7 10.3 59.3 30.6 64.4 ...
+ $ Verdict     : chr  "Super Hit" "Flop" "Average" "Average" ...
+NULL
+[1] "Last 10 movies (from bottom of bollywood dataframe) using column."                  Movie      Lead     Rdate Ocollection Wcollection    
+52               Neerja     Sonam 19-Feb-16        4.70       22.01
+53               Fitoor   Katrina 12-Feb-16        3.61       14.11
+54             Sanam Re    Pulkit 12-Feb-16        5.04       17.05    
+55     Sanam Teri Kasam     Mawra 05-Feb-16        1.25        4.66    
+56    Ghayal Once Again SunnyDeol 05-Feb-16        7.20       23.25    
+57        Saala Khadoos  Madhavan 29-Jan-16        2.19        9.93    
+58           Mastizaade     Sunny 29-Jan-16        5.59       18.45    
+59              Airlift    Akshay 22-Jan-16       12.35       44.30
+60 Kyaa Kool Hain Hum 3   Tusshar 22-Jan-16        8.15       20.15    
+61                Wazir   Amitabh 08-Jan-16        5.61       21.01    
+   Fwcollection Tcollection   Verdict
+52        35.32       75.61 Super Hit
+53        18.61       19.28      Flop
+54        25.82       27.74   Average
+55         8.66        9.11      Flop
+56        33.25       35.70   Average
+57        12.63       14.79      Flop
+58        28.74       36.44   Average
+59        83.50      128.10 Super Hit
+60        29.65       30.25   Average
+61        30.05       41.02   Average
+[1] "Total number of missing values (NA) in the bollywood dataframe."
+[1] 3
+[1] "Last 10 column"
+                  Movie
+52               Neerja
+53               Fitoor
+54             Sanam Re
+55     Sanam Teri Kasam
+56    Ghayal Once Again
+57        Saala Khadoos
+58           Mastizaade
+59              Airlift
+60 Kyaa Kool Hain Hum 3
+61                Wazir
+[1] "Second method"
+[1] 61
+ [1] "Neerja"               "Fitoor"
+ [3] "Sanam Re"             "Sanam Teri Kasam"
+ [5] "Ghayal Once Again"    "Saala Khadoos"       
+ [7] "Mastizaade"           "Airlift"
+ [9] "Kyaa Kool Hain Hum 3" "Wazir"
+[1] "Movie tops the list in terms of Total Collections"
+   Movie  Lead     Rdate Ocollection Wcollection Fwcollection
+1 Dangal Aamir 23-Dec-16       29.78      106.95       197.53
+  Tcollection   Verdict
+1      386.68 Super Hit
+[1] "Movie comes second on the list in terms of Total Collections"     
+    Movie   Lead     Rdate Ocollection Wcollection Fwcollection        
+26 Sultan Salman 06-Jul-16       36.54      180.36       229.16
+   Tcollection   Verdict
+26      300.45 Super Hit
+[1] "Movies shot by Shahrukh"
+[1] "Dear Zindagi" "Fan"
+[1] "Movies shot by Akshay"
+[1] "Rustom"      "Housefull 3" "Airlift"
+[1] "Movies shot by Amitabh"
+[1] "Pink"  "TE3N"  "Wazir"
+[1] "Total collection of Shahrukh"
+[1] 148.54
+[1] "Total collection of Akshay"
+[1] 364.27
+[1] "Total collection of Amitabh"
+[1] 121.91
+[1] "Movies in Flop category"
+[1] "Movies in Average category"
+[1] "Movies in Hit category"
+[1] "Movies in Superhit category"
+[1] "Movies which have Tcollection more than 100"
+[1] "Mean of Ocollection, Wcollection, Fwcollecion & Tcollection"      
+ Ocollection  Wcollection Fwcollection  Tcollection
+    6.312951    22.299180    36.059828    46.634754
+[1] "Max of Ocollection, Wcollection, Fwcollecion & Tcollection"       
+ Ocollection  Wcollection Fwcollection  Tcollection
+       36.54       180.36       229.16       386.68
+[1] "Name of movies which have maximum Ocollection, Wcollection, Fwcollecion & Tcollection"
+[1] "Dangal"
+[1] "Sultan"
+[1] "Sultan"
+[1] "Sultan"
