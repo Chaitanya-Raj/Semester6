@@ -1,0 +1,11 @@
+Rank ,YrsSincePhd ,YrsOfService ,Gender ,Salary 
+AstProf ,3,7,M,85
+AstProf ,8,12,F,95
+AstProf ,2,5,F,80
+AsctProf,9,18,M,150
+AsctProf,10,19,F,150
+AsctProf,10,18,M,160
+Prof,20,25,M,200
+Prof,22,29,F,250
+Prof,20,25,M,210
+Prof,22,29,F,220
