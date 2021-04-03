@@ -31,4 +31,4 @@ print("Mean age of all students : ")
 print(mean(students))
 
 print("Modal age of all students : ")
-print(getmode(students))2w
+print(getmode(students))
