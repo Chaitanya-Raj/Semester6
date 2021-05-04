@@ -1,0 +1,10 @@
+
+randomNum <- sample(10:500, 20, replace = TRUE)
+print(randomNum)
+random_mean <- mean(randomNum)
+random_median <- median(randomNum)
+print(random_mean)
+print(random_median)
+plot(x=randomNum, y=seq_along(randomNum),main = "Random Number", xlab="Number", ylab="Index",col="blue")
+abline(v=random_mean, col="red")
+abline(v=random_median, col="green")
